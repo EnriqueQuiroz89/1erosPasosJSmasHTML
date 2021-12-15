@@ -1,0 +1,28 @@
+
+
+.grid-container {
+    margin: 0px auto;
+    width: 100%;
+    min-height: 200px;
+    background: silver;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "dos cuatro tres";
+    column-gap: 5px;
+    padding: 10px;
+}
+.area_1{
+    background: palegoldenrod;
+    height: auto;
+    grid-area: dos;
+}
+.area_4{
+    background: crimson;
+    height: auto;
+    grid-area: cuatro;
+}
+.area_3{
+    background: palevioletred;
+    height: auto;
+    grid-area: tres;
+}

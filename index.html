@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creando Elementos HTML desde JS</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="area_1" class="area_1">
+            <h2>Agrega elementos con metodo createTextNode</h2>
+            <p>Click para Mas Elementos en la LISTA.</p>
+            <button onclick="timeFuncion()">Click Me</button>
+            <ul id="lista"></ul>
+        </div>
+        <div id="area_2" class="area_4">
+            <h2>Agrega elementos con metodo textContent</h2>
+            <p>Click para Mas Elementos en la LISTA ordenada</p>
+            <button onclick="dateFuncion()">Click Me</button>
+            <ol id="listaOrdenada"></ol>
+        </div>
+        <div id="area_3" class="area_3">
+            <h2>Agrega parrafos al area 3</h2>
+            <p>Click para Mas Parrafos</p>
+            <button onclick="addParrafosFuncion()">Click Me</button>
+        </div>
+    </div>
+
+    <p><strong>Nota:</strong><br>Primero cree un nodo LI,
+        <br> luego crea un nodo de texto,<br> luego agregue el nodo Text al nodo LI.
+        <br> Finalmente, agregue el nodo LI a la lista.
+    </p>
+</body>
+
+</html>
